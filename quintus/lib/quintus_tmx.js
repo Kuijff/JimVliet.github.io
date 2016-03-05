@@ -178,9 +178,11 @@ Quintus.TMX = function(Q) {
     }
   }
   // <---
+  
    var tiles = layer.querySelectorAll("tile"),
        width = attr(layer,'width'),
        height = attr(layer,'height');
+
 
    var gidDetails,gidOffset, sheetName;
 
@@ -205,7 +207,7 @@ Quintus.TMX = function(Q) {
        idx++;
      }
    }
-   
+
    var tileLayerProperties = Q._extend({
      tileW: Q.sheet(sheetName).tileW,
      tileH: Q.sheet(sheetName).tileH,
