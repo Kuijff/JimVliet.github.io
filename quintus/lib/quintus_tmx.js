@@ -168,7 +168,6 @@ Quintus.TMX = function(Q) {
        width = attr(layer,'width'),
        height = attr(layer,'height');
 
-
    var gidDetails,gidOffset, sheetName;
 
    var data = [], idx=0;
