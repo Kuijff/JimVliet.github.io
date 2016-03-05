@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="1">
  <tileset firstgid="1" name="Grass" tilewidth="32" tileheight="32" tilecount="12" columns="3">
-  <image source="sprites/Graphics/Autotiles/043-Grass02.png" width="96" height="128"/>
+  <image source="../images/043-Grass02.png" width="96" height="128"/>
  </tileset>
  <tileset firstgid="13" name="Rocks" tilewidth="32" tileheight="32" tilecount="12" columns="3">
-  <image source="sprites/Graphics/Autotiles/066-CF_Ground03.png" width="96" height="128"/>
+  <image source="../images/066-CF_Ground03.png" width="96" height="128"/>
  </tileset>
  <tileset firstgid="25" name="Player" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <image source="sprites/Graphics/Autotiles/TestingTile.png" width="32" height="32"/>
+  <image source="../images/TestingTile.png" width="32" height="32"/>
  </tileset>
  <layer name="decoration" width="20" height="15">
   <properties>
