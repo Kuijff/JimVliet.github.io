@@ -205,7 +205,7 @@ Quintus.TMX = function(Q) {
        idx++;
      }
    }
-
+   alert(sheetName);
    var tileLayerProperties = Q._extend({
      tileW: Q.sheet(sheetName).tileW,
      tileH: Q.sheet(sheetName).tileH,
