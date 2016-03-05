@@ -13,8 +13,9 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
     }
     );
 
-    Q.loadTMX("Testingground.tmx", function()
+    Q.loadTMX("Testingground.tmx, sprites.json", function()
     {
+        Q.compileSheets("sprites/Graphics/Autotiles/sprites.png","sprites.json");
     	Q.stageScene("Testingground");
     }
     );
