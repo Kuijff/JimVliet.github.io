@@ -7,7 +7,7 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
 	    .touch();                               // Add in touch support (for the UI)
     
     
-    Q.scene("TestLevel", function(stage)
+    Q.scene("Testingground", function(stage)
     {
     	Q.stageTMX("Testingground.tmx", stage);
     }
@@ -15,7 +15,7 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
 
     Q.loadTMX("Testingground.tmx", function()
     {
-    	Q.stageScene("TestLevel");
+    	Q.stageScene("Testingground");
     }
     );
 });

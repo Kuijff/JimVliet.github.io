@@ -5,6 +5,10 @@
          "height":15,
          "name":"decoration",
          "opacity":1,
+         "properties":
+            {
+             "type":"0"
+            },
          "type":"tilelayer",
          "visible":true,
          "width":20,
@@ -16,6 +20,10 @@
          "height":15,
          "name":"solidObjects",
          "opacity":1,
+         "properties":
+            {
+             "collision":"true"
+            },
          "type":"tilelayer",
          "visible":true,
          "width":20,

@@ -54,6 +54,9 @@
 </data>
  </layer>
  <layer name="moveableObjects" width="20" height="15">
+  <properties>
+   <property name="collision" value="true"/>
+  </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
