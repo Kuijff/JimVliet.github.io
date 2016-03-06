@@ -291,7 +291,7 @@ Quintus["2D"] = function(Q) {
     // Overload this method to control which tiles trigger a collision
     // (defaults to all tiles > number 0)
     collidableTile: function(tileNum) {
-      return tileNum > 0;
+      return tileNum >= 0;
     },
 
     getCollisionObject: function(tileX, tileY) {
