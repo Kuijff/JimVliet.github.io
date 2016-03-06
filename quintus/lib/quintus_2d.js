@@ -285,7 +285,7 @@ Quintus["2D"] = function(Q) {
     // Overload this method to draw tiles at frame 0 or not draw
     // tiles at higher number frames
     drawableTile: function(tileNum) {
-      return tileNum > 0;
+      return tileNum >= 0;
     },
 
     // Overload this method to control which tiles trigger a collision
