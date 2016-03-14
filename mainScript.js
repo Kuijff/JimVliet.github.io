@@ -6,14 +6,15 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
 	    .controls()                             // Add in default controls (keyboard, buttons)
 	    .touch();                               // Add in touch support (for the UI)
     
-    
+    //Edited at school
     Q.scene("test_01", function(stage)
     {
-    	Q.stageTMX("test_01.tmx", stage);
+    	Q.stageTMX("TESTMAP.tmx", stage);
     }
     );
 
-    Q.loadTMX("test_01.tmx", function()
+	//hello
+    Q.loadTMX("TESTMAP.tmx", function()
     {
     	Q.stageScene("test_01");
     }
