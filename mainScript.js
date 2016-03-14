@@ -13,6 +13,8 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
     }
     );
 
+    //wat leuks
+
     Q.loadTMX("test_01.tmx", function()
     {
     	Q.stageScene("test_01");
