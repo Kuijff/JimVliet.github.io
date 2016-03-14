@@ -13,6 +13,7 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
     }
     );
 
+	//hello
     Q.loadTMX("TESTMAP.tmx", function()
     {
     	Q.stageScene("test_01");
