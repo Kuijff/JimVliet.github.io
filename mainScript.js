@@ -2,7 +2,7 @@ window.addEventListener("load",function() { // Wait for the window to finish loa
  
 	var Q = window.Q = Quintus({development: true, imagePath: "/sprites/Graphics/Autotiles/"})                // Create a new engine instance
 	    .include("Sprites, Scenes, Input, 2D, Anim, Touch, UI, TMX") // Load any needed modules
-	    .setup({maximize:true}, "myGame")                        // Bind Quintus to the canvas with ID "myGame"
+	    .setup("myGame", {maximize:true})                        // Bind Quintus to the canvas with ID "myGame"
 	    .controls()                             // Add in default controls (keyboard, buttons)
 	    .touch();                               // Add in touch support (for the UI)
     
